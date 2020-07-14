@@ -14,16 +14,17 @@ public class Stack {
 	
 	public int pop(){
 		
-		Integer i= 20;
+		int i=0;
+		int x;
 		
-		int x = stackArray[top];
-		i=null;
+		x=stackArray[top];
+		
+		
 		stackArray[top]=i;
-		i.toString(null);
-		
+
 		top--;
 		
-		return x;
+		return i;
 		
 	}
 	

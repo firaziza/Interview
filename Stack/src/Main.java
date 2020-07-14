@@ -10,7 +10,7 @@ public class Main {
 		stackObject.push(9);
 		stackObject.push(12);
 		stackObject.push(25);
-		System.out.println(stackObject.pop());
+		stackObject.pop();
 	
 		
 		stackObject.show();
